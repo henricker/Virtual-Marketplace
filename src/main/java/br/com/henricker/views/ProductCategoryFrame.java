@@ -42,7 +42,7 @@ public class ProductCategoryFrame extends JFrame {
 		this.categoryController = new CategoryController();
 		this.productController = new ProductController();
 
-		labelNome = new JLabel("Name of Produto");
+		labelNome = new JLabel("Name of Product");
 		labelDescricao = new JLabel("Description of product");
 		labelCategoria = new JLabel("Category of Product");
 
@@ -97,8 +97,8 @@ public class ProductCategoryFrame extends JFrame {
 		tabela.setBounds(10, 185, 760, 300);
 		container.add(tabela);
 
-		botarApagar = new JButton("delete");
-		botaoEditar = new JButton("update");
+		botarApagar = new JButton("Delete");
+		botaoEditar = new JButton("Update");
 
 		botarApagar.setBounds(10, 500, 80, 20);
 		botaoEditar.setBounds(100, 500, 80, 20);
